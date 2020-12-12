@@ -1,17 +1,18 @@
 body {
     background-color: #148BA6;
-    color: #C9E7F2;
+    color: #444;
     font-size: 16px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 0;
     margin: 0;
 }
 
 .header{
-    background-color: #146A8C;
+    background-color: #fff;
     width: 90%;
     margin: 16px auto;
     padding: 16px;
+    border: 1px solid #999;
 }
 
 .header h1 {
@@ -33,10 +34,30 @@ body {
 
 .section {
     position: relative;
-    background-color: #146A8C;
+    background-color: #fff;
     width: 90%;
     margin: 16px auto;
     padding: 16px;
+    border: 1px solid #999;
+}
+
+.imagen-fondo {
+    display: block;
+    background-image: url(https://picsum.photos/id/119/1000/600);
+    background-position: bottom center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+
+.imagen-fondo:hover {
+    opacity: .5;
 }
 
 .section .experiencia-laboral {
@@ -59,16 +80,55 @@ body {
     width: 49.5%;
 }
 
+.section .item {
+    position: relative;
+    display: block;
+    /* background-color: red; */
+    margin: 8px 0;
+    padding: 8px;
+    border-left: 3px solid #148BA6;
+
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+
+.section .item:hover {
+    background-color: #C9E7F2;
+}
+
+.section .item h3{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    padding: 8px 0;
+}
+
+.section .item h4{
+    font-size: 16px;
+    margin: 0;
+    padding: 4px 0;
+}
+
+.section .item p{
+    font-size: 16px;
+    margin: 0;
+    padding: 4px 0;
+}
+
 .footer {
-    background-color: #146A8C;
+    background-color: #fff;
     width: 90%;
     margin: 16px auto;
     padding: 16px;
     text-align: center;
+    border: 1px solid #999;
 }
 
 .footer a{
-    color: aliceblue;+
+    color: #148BA6;
     font-size: 80%;
 }
 
