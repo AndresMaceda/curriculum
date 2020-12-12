@@ -1,0 +1,81 @@
+body {
+    background-color: #148BA6;
+    color: #C9E7F2;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    background-color: #146A8C;
+    width: 90%;
+    margin: 16px auto;
+    padding: 16px;
+}
+
+.header h1 {
+    font-size: 48px;
+    padding: 0;
+    margin: 0;
+}
+
+.header h3 {
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 0;
+}
+
+.header p {
+    padding: 0;
+    margin: 0;
+}
+
+.section {
+    position: relative;
+    background-color: #146A8C;
+    width: 90%;
+    margin: 16px auto;
+    padding: 16px;
+}
+
+.section .experiencia-laboral {
+    /* background-color: red; */
+    display: inline-block;
+    position: relative;
+    vertical-align:top;
+    margin: 0;
+    padding: 0;
+    width: 49.5%;
+}
+
+.section .estudios-cursos {
+    /* background-color: red; */
+    display: inline-block;
+    position: relative;
+    vertical-align:top;
+    margin: 0;
+    padding: 0;
+    width: 49.5%;
+}
+
+.footer {
+    background-color: #146A8C;
+    width: 90%;
+    margin: 16px auto;
+    padding: 16px;
+    text-align: center;
+}
+
+.footer a{
+    color: aliceblue;+
+    font-size: 80%;
+}
+
+// Ayuda
+.title {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
